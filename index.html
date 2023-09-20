@@ -12,47 +12,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     
     <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body style="background-color: #FDFDFF; color: black; font-family: Roboto; font-size: medium; font-weight: 400">
+<body style="background-color: #E2E6F3; color: #141414; font-family: Inclusive Sans; font-size: medium; font-weight: 500">
     
     <!---Top title & nav--->
     <div id="navbar">
-        <a href="index.html" style="padding: 0px;"><a style="font-size: large">🛰️ VarSat 1</a></a>
+        <a href="index.html" style="padding: 0px;"><img style="float: left; height: 75px" src="./img/VarSat1-banner.png"></a>
         <div id="navbar-right">
-          
+            <br/>
+            <a href="./blog/index.html">Blog</a>
+            <a href="#mission">Misja</a>
+            <a href="#specs">Specyfikacja</a>
         </div>
     </div>
+    <div style="height: 85px"></div>
 
-    <div style="height: 500px"></div>
-    
-    <center>
-        <a style="margin-top: 30px; font-weight: 500; color: black;">
-        VarSat 1 mission. <br/>
-        Updates soon...</a>
-    </center>
-    
+    <div style="height: 1000px;" id="title-div">
+        <center>
+            <div style="height: 300px"></div>
+            <a style="color:#E2E6F3; font-size: 350%; font-weight: 900; font-family: Inclusive Sans">VarSat1</a> <br/> <br/>
+            <a style="color:#E2E6F3; font-size: 120%; font-weight: 500; font-family: Inclusive Sans">Przygoda rozpoczyna się tutaj. Innowacja bez granic.</a>
+        </center>
+    </div>
+
+    <div style="background-color: #E2E6F3" id="mission">
+        <center>
+            <br/><br/>
+            <a style="color:#141414; font-size: 350%; font-weight: 900; font-family: Inclusive Sans">Misja</a><br/><br/><br/>
+
+        </center>
+    </div>
+    <div style="" class="textBox">
+        <a style="color: #141414; font-size: 200%; font-weight: 500; font-family: Inclusive Sans">Nasz projekt składa się z dwóch misji:</a><br/>
+        <ul>
+            <li><a style="color: #141414; font-size: 140%; font-weight: 900; font-family: Inclusive Sans">Misja podstawowa</a><a style="color: #141414; font-size: 140%; font-weight: 500; font-family: Inclusive Sans"> - jest obowiązkowa, jej założeniem jest pomiar temperatury zewnętrznej i wilgotności przez cały lot. Istotnym zadaniem sondy jest także zapis telemetrii na wbudowaną kartę pamięci oraz przekazywanie danych na ziemię drogą radiową z częstotliwością 1Hz.</a></li>
+            <li><a style="color: #141414; font-size: 140%; font-weight: 900; font-family: Inclusive Sans">Misja dodatkowa</a><a style="color: #141414; font-size: 140%; font-weight: 500; font-family: Inclusive Sans"> - VarSat 1 posiada zaawansowane systemy, które zostaną wykorzystane w misji dodatkowej. Sonda w dużej mierze skupi się na pomiarach atmosfery i trajektorii lotu - na pokładzie znajdą się m.in.: czujniki wilgotności, przyspieszenia i obrotu, pozycji i wysokości GPS, czujnik pola magnetycznego, zaawansowany moduł komunikacji radiowej, czujnik napięć oraz szybka pamięć do zapisu. Istotnym czynnikiem będzie możliwość pomiaru zanieczyszczenia atmosfery (AQI), stężenia CO₂, oraz zawartości lotnych związków organicznych w powietrzu. Naszym celem jest także analiza tych danych - na ich podstawie możliwe będzie stwierdzenie jakości atmosfery oraz szansy na powstanie życia na planecie.</a></li>
+        </ul>
+    <div style="height: 200px"></div>
+    </div>
+
+
+    <div style="background-color: #7880B5" id="specs">
+        <center>
+            <br/><br/>
+            <a style="color:#141414; font-size: 350%; font-weight: 900; font-family: Inclusive Sans">Specyfikacja techniczna VarSat 1</a><br/><br/><br/>
+
+            <div style="" class="textBox">
+                <div class="row">
+                    <div class="column">
+                        <ul>
+                            <a style="color: #141414; font-size: 200%; font-weight: 900; font-family: Inclusive Sans">Hardware:</a><br/><br/>
+                                <li><a style="color: #141414; font-size: 140%; font-weight: 500; font-family: Inclusive Sans">Układ zarządzający: ESP32-D0WDQ6<br/> Dual core 240MHz, 520KiB RAM<br/>4MB Flash</a></li>
+                                <li><a style="color: #141414; font-size: 140%; font-weight: 500; font-family: Inclusive Sans">Czujnik temperatury, wilgotności, ciśnienia: BME280</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+
+                    </div>
+                  </div>
+            </div>
+
+        </center>
+        <div style="height: 200px"></div>
+    </div>
+
+
+
     <div style="height: 2000px"></div>
-
-    <center>
-    <a style="color: gray">More unitl Monday.</a>
-    </center>
+    <footer>
+        <hr style="height: 4px; width: 99%; background: #8990bd; border: 0px; border-radius: 4px 4px"/>
+        <center>
+            <a style="color: #141414; font-size: 15px; text-decoration: none; font-weight: 100;">© VarSat | 2023<a/><br/><br/>
+        </center>
+    </footer>
     
     <script>
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-          if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-            document.getElementById("navbar").style.padding = "5px 10px";
-            document.getElementById("logo").style.fontSize = "25px";
-          } else {
-            document.getElementById("navbar").style.padding = "30px 10px";
-            document.getElementById("logo").style.fontSize = "35px";
-          }
+            var navbar = document.getElementById("navbar");
+            var logo = document.getElementById("logo");
+
+            if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+                navbar.style.padding = "5px 10px";
+                logo.style.fontSize = "25px";
+            } else {
+                navbar.style.padding = ""; // Use an empty string to remove inline style
+                logo.style.fontSize = "35px";
+            }
         }
+
     </script>
 </body>
 </html>
