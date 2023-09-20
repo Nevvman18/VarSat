@@ -11,8 +11,8 @@ html {
 
 #navbar {
   overflow: hidden;
-  background-color: white;
-  padding: 30px 10px;
+  background-color: #7c73ce;
+  padding: 15px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -28,7 +28,7 @@ html {
   padding: 10px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
+  line-height: 15px;
   border-radius: 4px;
 }
 
@@ -39,7 +39,7 @@ html {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #8990bd;
   color: black;
   transition: 0.3s
 }
@@ -48,9 +48,35 @@ html {
   float: right;
 }
 
-@media screen and (max-width: 580px) {
+#title-div {
+    background-image: url("./img/milky.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#mission {
+    scroll-margin-top: 85px;
+}
+
+#specs {
+    scroll-margin-top: 85px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 80px) {
   #navbar {
-    padding: 20px 10px !important;
+    padding: 15px 10px !important;
   }
   #navbar a {
     float: none;
