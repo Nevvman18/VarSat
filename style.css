@@ -50,7 +50,7 @@ html {
 }
 
 #title-div {
-    background-image: url("/img/milky.jpg");
+    background-image: url("VarSat/img/milky.jpg");
     background-size: cover;
     background-position: center;
 }
