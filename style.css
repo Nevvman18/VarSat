@@ -56,16 +56,20 @@ html {
 }
 
 #mission {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 80px;
 }
 
 #specs {
-    scroll-margin-top: 85px;
+    scroll-margin-top: 80px;
+}
+
+#flight {
+  scroll-margin-top: 80px;
 }
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 50%;
   }
   
   /* Clear floats after the columns */
