@@ -46,6 +46,7 @@ html {
 
 #navbar-right {
   float: right;
+  font-size: 1.3vw;
 }
 
 #title-div {
@@ -87,7 +88,6 @@ html {
     float: none;
   }
 }
-
 
 /* Global text boxes */
 .textBox {
