@@ -26,22 +26,25 @@
     
     <!---Top title & nav--->
     <div id="navbar">
-        <a href="index.html" style="padding: 0px;"><img style="float: left; height: 75px" src="./img/VarSat1-banner.png"></a>
+        <a href="index.html" style="padding: 0px;"><img style="float: left; height: 80px" src="./img/VarSat1-banner.png"></a>
         <div id="navbar-right">
-            <a style="margin-top: 15px" href="./blog/index.html">Blog</a>
-            <a style="margin-top: 15px" href="#mission">Misja</a>
-            <a style="margin-top: 15px" href="#specs">Specyfikacja</a>
+            <a style="margin-top: 2vh" href="#mission">Misja</a>
+            <a style="margin-top: 2vh" href="#specs">Specyfikacja</a>
+            <a style="margin-top: 2vh" href="#flight">Lot</a>
+            <a style="margin-top: 2vh" href="./blog/index.html">Blog</a>
         </div>
     </div>
-    <div style="height: 85px"></div>
+    <div style="height: 8vh"></div>
 
-    <div style="height: 1000px;" id="title-div">
+
+    <div style="height: 100vh;" id="title-div">
         <center>
-            <div style="height: 250px"></div>
+            <div style="height: 25vh"></div>
             <a style="color:#E2E6F3; font-weight: 900; font-size: 8vw">VarSat1</a> <br/> <br/>
             <a style="color:#E2E6F3; font-size: 2vw; font-weight: 500; font-family: Inclusive Sans">Przygoda rozpoczyna się tutaj. Innowacja bez granic.</a>
         </center>
     </div>
+
 
     <div style="background-color: #E2E6F3" id="mission">
         <center>
@@ -55,7 +58,7 @@
             <li><a style="color: #141414; font-size: 1.5vw; font-weight: 900; font-family: Inclusive Sans">Misja podstawowa</a><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans"> - jest obowiązkowa, jej założeniem jest pomiar temperatury zewnętrznej i wilgotności przez cały lot. Istotnym zadaniem sondy jest także zapis telemetrii na wbudowaną kartę pamięci oraz przekazywanie danych na ziemię drogą radiową z częstotliwością 1Hz.</a></li>
             <li><a style="color: #141414; font-size: 1.5vw; font-weight: 900; font-family: Inclusive Sans">Misja dodatkowa</a><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans"> - VarSat 1 posiada zaawansowane systemy, które zostaną wykorzystane w misji dodatkowej. Sonda w dużej mierze skupi się na pomiarach atmosfery i trajektorii lotu - na pokładzie znajdą się m.in.: czujniki wilgotności, przyspieszenia i obrotu, pozycji i wysokości GPS, czujnik pola magnetycznego, zaawansowany moduł komunikacji radiowej, czujnik napięć oraz szybka pamięć do zapisu. Istotnym czynnikiem będzie możliwość pomiaru zanieczyszczenia atmosfery (AQI), stężenia CO₂, oraz zawartości lotnych związków organicznych w powietrzu. Naszym celem jest także analiza tych danych - na ich podstawie możliwe będzie stwierdzenie jakości atmosfery oraz szansy na powstanie życia na planecie.</a></li>
         </ul>
-    <div style="height: 200px"></div>
+    <div style="height: 15vh"></div>
     </div>
 
 
@@ -64,32 +67,91 @@
             <br/><br/>
             <a style="color:#141414; font-size: 3vw; font-weight: 900; font-family: Inclusive Sans">Specyfikacja techniczna VarSat 1</a><br/><br/><br/>
 
-            <div style="" class="textBox">
+            <div class="textBox">
                 <div class="row">
                     <div class="column">
+                        <a style="color: #141414; font-size: 1.8vw; font-weight: 900; font-family: Inclusive Sans">Hardware:</a><br/><br/>
+                        <a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">UVCS-alpha:</a>
                         <ul>
-                            <a style="color: #141414; font-size: 1.8vw; font-weight: 900; font-family: Inclusive Sans">Hardware:</a><br/><br/>
-                                <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Układ zarządzający: <br/> ESP32-D0WDQ6</a></li>
-                                <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Czujnik temperatury, ciśnienia i wilgotności: BME280</a></li>
-                                <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Akcelerometr, żyroskop: MPU6050</a></li>
-                                <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">to be continued...</a></li>
-                                
-                                
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Układ zarządzający: <br/> ESP32-D0WDQ6</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Czujnik temperatury, ciśnienia i wilgotności: BME280</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Akcelerometr, żyroskop: MPU6050</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Moduł GPS: Neo-6m</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Komunikacja radiowa: HC-12 433MHz 100mW</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Pokładowa karta Micro SD</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Moduł GPS: Neo-6m</a></li><li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Pomiar napięcia akumulatora, diody statusu, głośnik</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Inne wbudowane czujniki oraz wielozadaniowe porty IO</a></li>
+                            <br/>
+                        </ul>
+
+                        <a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Stacja naziemna:</a>
+                        <ul>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Układ zarządzający: <br/> Arduino UNO AT328P</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Komunikacja radiowa: HC-12 433MHz 100mW</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">Antena kierunkowa Yagi</a></li>
                         </ul>
                     </div>
                     <div class="column">
-
-                    </div>
-                    <div class="column">
+                        <a style="color: #141414; font-size: 1.8vw; font-weight: 900; font-family: Inclusive Sans">Firmware i software:</a><br/>
+                        <ul>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">ASTCF - zaawansowany system telemetrii i kontroli satelity. Oparty na systemie RTOS oraz programach C++ w środowisku Arduino IDE. Łączy niezawodność, wydajność i wszechstronność.</a></li>
+                            <li><a style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans">VSRMS - wielofunkcyjne środowisko zdalnej kontroli satelity. Oparty na Pythonie oraz bibliotekach środowisk graficznych. Nowoczesny wygląd oraz wgląd do wszystkich opcji satelity.</a></li>
+                        </ul>
 
                     </div>
                   </div>
             </div>
 
         </center>
-        <div style="height: 200px"></div>
+        <div style="height: 13vh"></div>
     </div>
 
+
+    <div id="flight">
+        <center>
+            <br/><br/>
+            <a style="color:#141414; font-size: 3vw; font-weight: 900; font-family: Inclusive Sans">Przebieg lotu</a><br/><br/><br/>
+                    <div class="row">
+                        <div style="text-align:center;" class="column">
+                            <p style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans; margin-bottom: 10px;">Rakieta wynosi sondę na wysokość ~1.5km.</p><img src="./img/cs-rocket.jpg" style="height: 30vh; border-radius: 10px 10px;">
+                        </div>
+                        <div style="text-align:center;" class="column">
+                            <p style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans; margin-bottom: 10px;">W apogeum lotu sondy są wyrzucane z rakiety.</p><img src="./img/cs_in_air.jpg" style="height: 30vh; border-radius: 10px 10px;">
+                        </div>
+
+                        <div style="text-align:center;" class="column">
+                            <p style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans; margin-bottom: 10px;">Opadając na spadochronie, sonda zbiera różne dane.</p><img src="./img/cs_parachute.jpg" style="height: 30vh; border-radius: 10px 10px">
+                        </div>
+                        <div style="text-align:center;" class="column">
+                            <p style="color: #141414; font-size: 1.5vw; font-weight: 500; font-family: Inclusive Sans; margin-bottom: 10px;">Odpowiedni projekt zapewnia bezpieczne lądowanie.</p><img src="./img/cs-ground.jpg" style="height: 30vh; border-radius: 10px 10px;">
+                        </div> 
+                    </div>
+        </center>
+        <div style="height: 13vh"></div>
+    </div>
+
+
+    <div style="background-color: #AED1E6" id="blog-card">
+        <center>
+            <br/><br/>
+            <a style="color:#141414; font-size: 3vw; font-weight: 900; font-family: Inclusive Sans">Blog</a><br/><br/><br/>
+
+            <div class="textBox">
+                <a style="color: #141414; font-size: 1.8vw; font-weight: 900; font-family: Inclusive Sans">Najnowsze artykuły</a><br/><br/>
+                <div class="row">
+                    <div class="column">
+                        
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                  </div>
+                  <div style="height: 13vh"></div>
+                  <a href="./blog/index.html" style="color: #141414; font-size: 1.5vw; font-weight: 900; font-family: Inclusive Sans; text-align: right;">Więcej</a><br/><br/>
+            </div>
+
+        </center>
+    </div>
 
 
     <div style="height: 2000px"></div>
