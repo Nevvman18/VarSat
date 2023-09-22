@@ -1,6 +1,7 @@
 /* Body style */
 body {
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 html {
