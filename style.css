@@ -86,7 +86,13 @@ html {
 .column {
     float: left;
     width: 50%;
-  }
+}
+
+.column-4 {
+  float: left;
+  width: 25%;
+}
+
   
   /* Clear floats after the columns */
   .row:after {
